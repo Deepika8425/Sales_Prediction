@@ -25,5 +25,7 @@ Each model was tuned using GridSearchCV to find the best hyperparameters, and ev
 ## Evaluation Metrics
 The models are evaluated using the following metrics:<br>
 
-Mean Absolute Error (MAE): Measures the average magnitude of the errors in a set of predictions.<br>
+MAE: Average absolute error between predicted and actual sales. Lower is better.<br>
+M² (MSE): Average squared error, penalizing larger errors. Sensitive to outliers.<br>
+RMSE: Square root of MSE, in the same units as sales. Lower is better.<br>
 R-squared (R²): A statistical measure of the proportion of variance in the dependent variable that is predictable from the independent variables.
